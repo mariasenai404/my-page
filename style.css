@@ -1,4 +1,36 @@
-.cabessalho{
+header{
+    height: 60px;
+    background-color: #8601AF;
+}
+h1{
+    text-align: center;
+    color: #F7DBFF;
+    font-family: heather;
+    font-weight: 100;
+}
+body{
+    background: linear-gradient(black, #2A0934, #3A004C);
+}
+.corpo{
     display: flex;
-    justify-content:center ;
+    text-align: center;
+    flex-direction: row;
+}
+    
+img{
+    width: 20%;
+}
+p{
+    color: #F7DBFF;
+    background-color: #8601AF;
+    text-align: center;
+    width: 80%;
+    height: 100px;
+    grid-auto-rows: auto;
+}
+h2{
+    color: #F7DBFF;
+}
+h4{
+    color: aliceblue;
 }
