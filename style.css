@@ -5,7 +5,6 @@ header{
 h1{
     text-align: center;
     color: #F7DBFF;
-    font-family: heather;
     font-weight: 100;
 }
 body{
@@ -13,8 +12,8 @@ body{
 }
 .corpo{
     display: flex;
-    text-align: center;
-    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
     
 img{
@@ -23,10 +22,9 @@ img{
 p{
     color: #F7DBFF;
     background-color: #8601AF;
-    text-align: center;
-    width: 90%;
-    height: 100px;
-    justify-content: space-evenly;
+    width: 300px;
+    height: 150px;
+    
     
 }
 h2{
