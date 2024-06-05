@@ -26,7 +26,8 @@ p{
     text-align: center;
     width: 80%;
     height: 100px;
-    grid-auto-rows: auto;
+    justify-content: space-evenly;
+    
 }
 h2{
     color: #F7DBFF;
